@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(199, 199, 120);
+
+}
+
+h1{
+    font-family: 'Yeseva One', cursive;
+    z-index: 2;
+   text-align: center;
+   margin-right: 30px ;
+   display: grid;
+   margin-top: 100px;
+   color: rgb(139, 139, 64);
+}
+
+.all{
+border: 1px purple solid;
+background-color: purple;
+border-radius: 16px ;
+width: 20%;
+height: 20%;
+margin: 10px 1000px 0px 602px ;
+display: grid;
+font-weight: bold;
+font-family: 'Unbounded', sans-serif;
+z-index: 1;
+display: grid;
+}
+
+p{
+text-align: center;    
+color:rgb(202, 202, 23) ; 
+font-size: 13px ;
+margin-top: 10px ;
+
+}
+
+input{
+width: 80%;
+background-color: rgb(199, 199, 120);
+margin-left: 30px ;
+}
+
+.btn{
+margin-top: 10px ;
+color: rgb(0, 0, 0);
+border-radius: 16px;
+transition: 1s;
+background-color: rgb(166, 166, 98);
+height: 50px ;
+font-weight: bolder;
+color: purple;
+font-size: 20px ;
+}
+
+.btn:hover{
+    transform: scaleY(1.1);    
+    color: azure;
+}
